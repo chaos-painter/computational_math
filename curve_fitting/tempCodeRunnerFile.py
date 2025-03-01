@@ -1,0 +1,1 @@
+raise RuntimeError("Jacobi method did not converge.")

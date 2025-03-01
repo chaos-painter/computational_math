@@ -1,0 +1,1 @@
+start = x_vals.index(x0)

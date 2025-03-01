@@ -46,7 +46,10 @@ def newton_forward_interpolation(x, y, x_val):
 
     return interpolation
 
-
+if __name__ == "__main__":
+    x = [40, 50, 60, 70, 80, 90]
+    y = [184, 204, 226, 250, 276, 304]
+    print(newton_forward_interpolation(x, y, 43))
 
 
 
